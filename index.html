@@ -6,18 +6,292 @@
     index.html: You will write your html code for your portfolio website here.
  -->
 
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    
-</body>
-<script src="./js/script.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summer Hacks' 21 - Amrit Nayak</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Stylesheets -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html"
+            >Summer Hacks' 21 <i class="fas fa-umbrella-beach title-icon"></i
+          ></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#title">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hobbies">Hobbies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+
+        <div class="home">
+          <div class="row">
+            <div class="col-lg-6 title-image">
+              <img src="assets/profile-pic.jpg" alt="Profile Image" class="home-image" />
+            </div>
+            <div class="col-lg-6 title-text">
+              <h1 class="big-heading">
+                Hi, <br />
+                I am Amrit
+              </h1>
+              <h2 id="text" class="description"></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+
+    <section id="education">
+      <div class="container-fluid reveal">
+        <h2 class="education-heading">Education</h2>
+
+        <div class="row">
+          <div class="card-marks col-lg-4">
+            <div class="card shadow rounded border border-info">
+              <div class="card-header bg-info bg-gradient">
+                <h3>10th</h3>
+              </div>
+              <div class="card-body">
+                <p><strong>CGPA: 9.8</strong></p>
+                <p>Passing Year: 2016</p>
+                <p>
+                  St. Xavier's High School <br />
+                  Kedargouri, Bhubaneswar
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-marks col-lg-4">
+            <div class="card shadow rounded border border-info">
+              <div class="card-header bg-info bg-gradient">
+                <h3>12th</h3>
+              </div>
+              <div class="card-body">
+                <p><strong>Percentage: 75%</strong></p>
+                <p>Passing Year: 2018</p>
+                <p>
+                  St. Xavier's High School <br />
+                  Kedargouri, Bhubaneswar
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-marks col-lg-4">
+            <div class="card shadow rounded border border-info">
+              <div class="card-header bg-info bg-gradient">
+                <h3>College</h3>
+              </div>
+              <div class="card-body">
+                <p>
+                  <strong>CGPA: 9.89</strong> <br />
+                  3rd Semester
+                </p>
+                <p>Passing Year: 2023</p>
+                <p>
+                  Institute of Technical Education & Reseach, SOA <br />
+                  Jagamara, Bhubaneswar
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+
+    <section id="skills">
+      <div class="container-fluid reveal">
+        <h2 class="skills-heading">Skills</h2>
+
+        <div class="row">
+          <div class="skills-icons col-lg-3 col-md-4 col-6">
+            <img src="./assets/android-studio.ico" alt="" class="icons" />
+            <p>Android Studio</p>
+          </div>
+          <div class="skills-icons col-lg-3 col-md-4 col-6">
+            <img src="./assets/java.jpg" alt="" class="icons" />
+            <p>Java</p>
+          </div>
+          <div class="skills-icons col-lg-3 col-md-4 col-6">
+            <img src="./assets/kotlin.png" alt="" class="icons" />
+            <p>Kotlin</p>
+          </div>
+          <div class="skills-icons col-lg-3 col-md-4 col-6">
+            <img src="./assets/python.png" alt="" class="icons" />
+            <p>Python</p>
+          </div>
+          <div class="skills-icons col-lg-3 col-md-4 col-6">
+            <img src="./assets/html.png" alt="" class="icons" />
+            <p>HTML 5</p>
+          </div>
+          <div class="skills-icons col-lg-3 col-md-4 col-6">
+            <img src="./assets/css.png" alt="" class="icons" />
+            <p>CSS 3</p>
+          </div>
+          <div class="skills-icons col-lg-3 col-md-4 col-6">
+            <img src="./assets/javascript.png" alt="" class="icons" />
+            <p>Javascript</p>
+          </div>
+          <div class="skills-icons col-lg-3 col-md-4 col-6">
+            <img src="./assets/cp.png" alt="" class="icons" />
+            <p>Competitive Programming</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hobbies -->
+
+    <section id="hobbies">
+      <div class="container-fluid reveal">
+        <h2 class="hobbies-heading">Hobbies</h2>
+
+        <div class="row hobbies-row">
+          <div class="left hobbies-text col-lg-6">
+            <h4>Coding <i class="fas fa-code title-icon"></i></h4>
+            <p>
+              I started my coding journey when I got into college. In the beginning I faced many obstacles but after
+              practicing a lot and with the help of my friends, I learnt so much. Now coding is too fun and interesting.
+              It's so much satisfying when we develop applications similar to those which we have been using for years.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img src="./assets/coding.jpg" alt="" class="hobbies-images shadow-lg rounded" />
+          </div>
+        </div>
+        <div class="row hobbies-row">
+          <div class="col-lg-6">
+            <img src="./assets/your-name.jpg" alt="" class="hobbies-images shadow-lg rounded" />
+          </div>
+          <div class="right hobbies-text col-lg-6">
+            <h4>Anime <i class="fas fa-photo-video title-icon"></i></h4>
+            <p>
+              After a long day of studies, classes, coding, anyone would get tired, right ? And this is when anime helps
+              me so much. I watch a lot of anime whenever I get some free time, though my watchlist just grows like
+              every minute... It's a dream of mine that one day I will go to Japan.
+            </p>
+          </div>
+        </div>
+        <div class="row hobbies-row">
+          <div class="left hobbies-text col-lg-6">
+            <h4>Sketching <i class="fas fa-pencil-alt title-icon"></i></h4>
+            <p>
+              From childhood I liked making sketches of my favourite characters. After all these years, I have got quite
+              good in drawing... or maybe not... but its always fun when I sit down with a piece of paper and a pencil
+              and start drawing.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img src="./assets/sketch.jpg" alt="" class="hobbies-images shadow-lg rounded" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+      <div class="container-fluid reveal">
+        <h2 class="contact-heading">Get In Touch</h2>
+        <p class="contact-msg">Looking for me? Check out my social handles <i class="fas fa-cocktail"></i></p>
+        <a class="contact-btn btn btn-lg btn-outline-dark shadow" href="mailto:amritnayak48@gmail.com">Say Hi!</a>
+        <div class="social">
+          <a class="social-link" href="https://github.com/AmritNayak" target="_blank">
+            <i class="social-icons fab fa-github fa-2x"></i
+          ></a>
+          <a class="social-link" href="https://www.facebook.com/amrit.h4wkeye/" target="_blank">
+            <i class="social-icons fab fa-facebook fa-2x"></i>
+          </a>
+          <a class="social-link" href="https://www.instagram.com/amrit.h4wkeye/" target="_blank">
+            <i class="social-icons fab fa-instagram fa-2x"></i>
+          </a>
+          <a class="social-link" href="https://www.linkedin.com/in/amrit-nayak-1127241b6/" target="_blank">
+            <i class="social-icons fab fa-linkedin fa-2x"></i>
+          </a>
+          <a class="social-link" href="https://discordapp.com/users/351267191703994368" target="_blank">
+            <i class="social-icons fab fa-discord fa-2x"></i>
+          </a>
+        </div>
+        <div class="copyright">
+          <p>&copy; Copyright 2021</p>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <!-- Scripts -->
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    defer
+    src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+    integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./js/script.js"></script>
 </html>

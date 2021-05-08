@@ -6,3 +6,330 @@
     style.css: You will write your css code for your portfolio website here. You can add other css files too but it must be under "css" folder.
 
 */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat";
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.big-heading {
+  font-size: 4.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.description {
+  opacity: 0.9;
+  font-weight: 300;
+  padding-bottom: 10px;
+  width: fit-content;
+  border-bottom: 2px solid #f9e090;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Title Section */
+
+#title {
+  background: url("../assets/title-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: left;
+}
+
+.navbar {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background-image: linear-gradient(to bottom, rgba(240, 90, 40, 0.75), rgba(255, 208, 0, 0.25));
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navbar-brand {
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav_link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.home {
+  padding: 15% 8% 10%;
+  align-items: center;
+}
+
+.title-icon {
+  margin-left: 5px;
+}
+
+.title-icon:hover {
+  color: #90ee90;
+}
+
+.title-image,
+.title-text {
+  padding: 2rem 0 2rem;
+}
+
+.home-image {
+  width: 65%;
+  border-radius: 100%;
+  opacity: 0.9;
+}
+
+/* Education Section */
+
+#education {
+  background-color: #fff;
+}
+
+.education-heading {
+  font-size: 3rem;
+}
+
+.card-header {
+  color: #fff;
+}
+
+.education p {
+  color: grey;
+}
+
+.card-marks {
+  padding: 3% 2%;
+}
+
+/* Skills Section */
+
+#skills {
+  background-image: linear-gradient(to left, #f05a28, #f7931e);
+  color: #fff;
+}
+
+.skills-heading {
+  font-size: 3rem;
+  margin: 3% 0;
+}
+
+.skills-icons {
+  padding: 2% 0;
+}
+
+.icons {
+  width: 30%;
+  padding: 4% 2% 3%;
+}
+
+#skills .container-fluid {
+  padding-top: 2%;
+}
+
+/* Hobbies */
+
+#hobbies {
+  background-color: #fff;
+}
+
+#hobbies .container-fluid {
+  padding: 5% 10%;
+}
+
+#hobbies h4 {
+  color: #f7931e;
+}
+
+.hobbies-heading {
+  font-size: 3rem;
+  margin-bottom: 3%;
+}
+
+.hobbies-images {
+  width: 75%;
+}
+
+.hobbies-row {
+  padding: 4%;
+}
+
+.hobbies-text {
+  text-align: left;
+  padding: 2% 7%;
+  color: gray;
+}
+
+.left {
+  background-image: linear-gradient(to right, #f9e090, #fff);
+}
+
+.right {
+  background-image: linear-gradient(to left, #f9e090, #fff);
+}
+
+/* Contact Section */
+
+#contact {
+  background-image: linear-gradient(to top, #ff935c, #f9e090);
+  color: #fff;
+}
+
+.contact-heading {
+  font-size: 3rem;
+  margin-bottom: 3%;
+}
+
+.contact-msg {
+  font-size: 1.4rem;
+}
+
+.contact-btn {
+  margin: 2%;
+}
+
+.social {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+}
+
+.social-icons {
+  color: #fff;
+  margin: 20px 20px;
+}
+
+/* Interactions */
+
+.home-image,
+.hobbies-images {
+  transition: transform 0.25s ease-in;
+}
+
+.home-image:hover,
+.hobbies-images:hover {
+  transform: scale(1.2);
+}
+
+.icons {
+  transition: transform 0.4s ease-in;
+}
+
+.icons:hover {
+  transform: rotate(360deg);
+}
+
+.social-icons {
+  transition: color 0.1s ease-in;
+}
+
+.social-icons:hover {
+  color: #000;
+}
+
+.education-heading:hover,
+.hobbies-heading:hover {
+  color: gray;
+  transition: color 0.2s ease-in;
+}
+
+/* Media Queries  */
+
+@media screen and (max-width: 1280px) {
+  .icons {
+    width: 35%;
+  }
+
+  .big-heading {
+    font-size: 3.5rem;
+  }
+
+  .description {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .big-heading {
+    text-align: center;
+  }
+
+  .description {
+    margin: auto;
+  }
+
+  .title-image {
+    text-align: center;
+  }
+
+  .card-marks {
+    margin-bottom: 3%;
+  }
+
+  .education-heading,
+  .skills-heading,
+  .hobbies-heading {
+    margin: 4% 0;
+  }
+
+  .social-icons {
+    margin: 10px 12px;
+  }
+
+  .icons {
+    width: 35%;
+  }
+
+  .left,
+  .right,
+  .hobbies-images {
+    margin-top: 5%;
+  }
+
+  .hobbies-text,
+  .contact-msg,
+  .skills-icons,
+  .copyright {
+    font-size: 1rem;
+  }
+}
+
+/* Scroll Reveal Animation*/
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: transform 1.5s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
