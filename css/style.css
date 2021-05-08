@@ -55,6 +55,16 @@ h6 {
   background-position: center;
   color: #fff;
   text-align: left;
+  animation: fade 2s ease;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .navbar {
