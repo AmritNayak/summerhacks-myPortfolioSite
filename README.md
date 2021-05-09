@@ -3,6 +3,10 @@ Template For Summer Hacks Project Submission
 
 # Portfolio for Summer Hacks 2021 🍹
 
+A Summer Themed Responsive Website<br />
+for Summer Hacks' 21 conducted by SOA Code Room<br />
+More content to be added soon... 😉
+
 ## About Me 🌞
 
 * Hi, I am Amrit.
