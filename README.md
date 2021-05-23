@@ -14,14 +14,14 @@ More content to be added soon... 😉
 * Learning Android, Web, Python Development.
 * Love to Code :)
 
-## Skills 💫
 
-* Hackerrank: <br />Problem Solving - ⭐⭐⭐⭐⭐ <br />Java - ⭐⭐⭐⭐⭐ <br />Python - ⭐⭐⭐⭐
-* CodeChef: Overall ⭐⭐⭐
-* Codeforces: Rating 1091
 
-* Android Dev: Java Kotlin
-* Web Dev: HTML5 CSS3 Javascript
+
+
+
+
+
+
 
 ## Get In Touch 👥
 
